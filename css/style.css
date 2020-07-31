@@ -1,0 +1,294 @@
+/*
+----------------------------------------------
+Complete page styles
+----------------------------------------------
+*/
+html, body
+{
+	height: 100%;
+	width: 100%;
+  	margin: 0;
+  	padding: 0;
+}
+html body
+{
+	font-family: 'Raleway';
+	background-color: #2962ff;
+}
+/*
+----------------------------------------------
+Navbar styles
+----------------------------------------------
+*/
+/*Entire navbar style*/
+.navbar {
+  height: 70px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+}
+/*Navbar brand i.e name that appears on top left*/
+.navbar .navbar-brand
+{
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 0.5rem;
+}
+/*Navbar link styles*/
+.navbar a
+{
+	color: rgba(255,255,255,1);
+	font-weight: 600;
+	font-size: 21px;
+	letter-spacing: 0.3rem;
+}
+/*Navbar active link style*/
+.navbar .navbar-nav .nav-link.active
+{
+  color: #ffc107;
+}
+/*Navbar link style on hover*/
+.navbar a:hover
+{
+	color: black;
+}
+/*Navbar style on scrolling down*/
+.navbar.shrink
+{
+    background: #2962ff;
+}
+/*Navbar brand i.e name that appears on top left on scrolling down*/
+.navbar.shrink .navbar-brand
+{
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 0.3rem;
+	color: #ffffff;
+}
+/*Navbar link style on scrolling down*/
+.navbar.shrink .navbar-nav a
+{
+    color: #ffffff;
+    font-size: 19px;
+    padding: 10px;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+/*Navbar link style on hover on scrolling down*/
+.navbar.shrink .navbar-nav a:hover
+{
+  color: #000;
+}
+/*Navbar active link style on scrolling down*/
+.navbar.shrink .navbar-nav .nav-link.active
+{
+    color: #ffc107;
+}
+/*Navbar button icon style for responsive design*/
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/*Navbar button icon style for responsive design*/
+.navbar .navbar-toggler {
+  border-color: black;
+  z-index: 1;
+}
+/*Navbar link style for responsive design*/
+.navbar .navbar-collapse.collapse.show a
+{
+	color: black;
+}
+/*Navbar active link style for responsive design*/
+.navbar .navbar-collapse.collapse.show .navbar-nav .nav-link.active
+{
+	color: #ffc107;
+}
+/*
+----------------------------------------------
+Background canvas animation styles
+----------------------------------------------
+*/
+.background
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+/*
+----------------------------------------------
+Introduction section styles
+----------------------------------------------
+*/
+#intro {
+	position: relative;
+	padding-top: 13%;
+	width: 100%;
+	color: #fff;
+	z-index: 10;
+}
+/*Name style*/
+#intro h1
+{
+	font-weight: 700;
+	font-size: 5em;
+	letter-spacing: 0.5rem;
+	line-height: 2em;
+}
+/*Occupation style*/
+#intro p
+{
+	font-weight: 550;
+	font-size: 2em;
+	letter-spacing: 0.15rem;
+}
+/*Graduation icon style*/
+.fas.fa-user-graduate
+{
+	font-size: 130px;
+	color: #fff;
+}
+/*Introduction Icon styles*/
+.fas
+{
+	color: #ffc107;
+}
+/*arrow down icon style*/
+.fa-angle-double-down
+{
+	margin-top: 90px; 
+	font-size: 90px;
+	color: #ffc107;
+}
+/*arrow down icon style on mouse hover*/
+a .fa-angle-double-down:hover
+{
+	font-size: 100px;
+	text-shadow: 5px 5px 15px rgba(81, 45, 168, 0.3);
+}
+/*
+----------------------------------------------
+About section styles
+----------------------------------------------
+*/
+#about
+{
+	position: relative;
+	z-index: 1;
+	margin-top: 10%;
+	padding-top: 4%;
+}
+/*Section Heading style*/
+.section_head
+{
+	font-weight: 700;
+	font-size: 3em;
+	letter-spacing: 0.3rem;
+	line-height: 1.5em;
+	color: #ffffff;
+}
+/*Card Icon styles*/
+.card .fas
+{
+	padding-right: 10px;
+	color: #2962ff;
+}
+/*Card text style*/
+.card-text
+{
+	line-height: 2.5em;
+}
+/*Left hand side card shadow*/
+#main .card
+{
+	box-shadow: -2px 10px 10px 4px rgba(0,0,0,0.30);
+}
+.card h5
+{
+	color: #808080;
+}
+/*Current employer date style*/
+.label
+{
+    color: white;
+    padding: 4px;
+}
+.success
+{
+	background-color: #4CAF50;
+}
+/*Experience and education card styles*/
+#exp,#edu .card
+{
+	box-shadow: 2px 6px 10px 4px rgba(0,0,0,0.30);
+}
+#edu
+{
+	margin-top: 20px;
+}
+/*
+----------------------------------------------
+Project section styles
+----------------------------------------------
+*/
+/*Project card style*/
+#projects
+{
+	padding-top: 6%;
+}
+/*
+----------------------------------------------
+Contact section styles
+----------------------------------------------
+*/
+#contact
+{
+	padding: 6% 0 3% 0;
+}
+/*Left hand side column style*/
+#contact .card .col-md-8
+{
+	padding: 3% 2%;
+}
+/*Form input field styles*/
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+}
+input[type=email] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+}
+textarea[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+}
+/*Right hand side column style*/
+#contact .col-md-4 .card
+{
+	background-color: #2962ff;
+	color: white;
+	height: 100%;
+}
+#contact .col-md-4 .card-title h3
+{
+	font-size: 1.8rem;
+	font-weight: 700;
+	padding: 10% 0;
+}
+#contact .col-md-4 .card li
+{
+	font-size: 1rem;
+	font-weight: 600;
+	padding: 2% 0;
+}
+/*Contact Icons and Links style*/
+#contact .col-md-4 .card .fas
+{
+	color: white;
+}
